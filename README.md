@@ -5,7 +5,7 @@
 phalcon文档：[https://phalconphp.com/zh/](https://phalconphp.com/zh/)  
 
 ### 2. nginx安装及配置  
-#####安装nginx:  
+##### 安装nginx:  
 这里为了方便直接只用了yum安装:  
 
 `yum install -y nginx`  
@@ -22,7 +22,7 @@ phalcon文档：[https://phalconphp.com/zh/](https://phalconphp.com/zh/)
 * 若想使 _nginx_ 开机启动，可以使用命令`systemctl enable nginx.service`  
 * 若想使 _nginx_ 安装在指定的文件夹，可自行下载编译安装，方法就请自行搜索吧，也很简单。
 
-#####配置nginx:  
+##### 配置nginx:  
 这里简单的修改了下 __nginx.conf__ 文件中的server配置:
 ```nginx
 server {
